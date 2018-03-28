@@ -9,7 +9,7 @@ google_maps_javascript_api_key:
 snipcart_key: "OTFiZDVmNmYtYzc1OS00NGQyLTgzYTAtNjhjZGFhNTZlMWMyNjM2NTc4NjAyODA0NDkxODg5"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /turboicon.png
+logo: /siteicon.png
 description: Fur t-shirt store
 author:
   name: fur
