@@ -2,7 +2,7 @@
 # Site
 
 title: Manchester Mod Meets
-url: "http://modmeets.netlify.com/"
+url: "https://modmeets.netlify.com/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,16 +10,16 @@ snipcart_key: "OTFiZDVmNmYtYzc1OS00NGQyLTgzYTAtNjhjZGFhNTZlMWMyNjM2NTc4NjAyODA0N
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Fur t-shirt store
+description: Mod Meets
 author:
-  name: fur
-  email: fur@example.com
-  twitter: fur # twitter username without the @ symbol
-  phone: "+1 23456789"
+  name: Adam
+  email: adam@modmeets.co.uk
+  twitter: modmeets # twitter username without the @ symbol
+  phone: ""
 social:
-  name: Fur Template
+  name: Manchester Modded Meets
   links:
-    - https://github.com/CloudCannon/fur-jekyll-template
+    - https://github.com/adamprice56/modmeets
 
 # -----
 # Build
