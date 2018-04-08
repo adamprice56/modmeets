@@ -17,7 +17,7 @@ subtitle: Mod stuff and then meet up.
 							<div class="product-description">
 								{{ product.description_markdown | truncate: 45 | markdownify }}
 							</div>
-							<p>${{ product.price }}</p>
+							<p>£{{ product.price }}</p>
 						</div>
 					</li>
 				{% endfor %}
