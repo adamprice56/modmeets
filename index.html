@@ -12,23 +12,19 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet">
-		<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart_key }}"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-		
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->		
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header">
-				<h1>Big Picture</h1>
+				<h1>Manchester Modded Meets</h1>
 				<nav>
 					<ul>
 						<li><a href="#intro">Intro</a></li>
-						<li><a href="#one">What I Do</a></li>
-						<li><a href="#two">Who I Am</a></li>
-						<li><a href="#work">My Work</a></li>
+						<li><a href="#one">What We do</a></li>
+						<li><a href="#two">Who We Are</a></li>
+						<li><a href="#products">Products</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
@@ -51,11 +47,9 @@
 			<section id="one" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>What I Do</h2>
+						<h2>What We Do</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<p>We bring people together so everyone can show off their rides</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -64,50 +58,26 @@
 			<section id="two" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>Who I Am</h2>
+						<h2>Who We Are</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<p>We are a community of car enthusiasts in Manchester, and you can be too!</p>
 				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
+				<a href="#products" class="button style2 down anchored">Next</a>
 			</section>
 
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
+		<!-- products -->
+			<section id="products" class="main style3 primary">
 				<div class="content">
 					<header>
-						<h2>My Work</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
+						<h2>Our Products</h2>
+						<p>Get yourself some gear and represent. We have everything you need.</p>
 					</header>
 
 					<!-- Gallery  -->
 						<div class="gallery" id="products">
 							<article class="from-left">
-									<div class="container">
-											<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
-											<ul class="product-list">
-												{% for product in site.products %}
-													<li>
-														{% include product-styles.html product=product %}
-														<div class="product-details">
-															<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
-															<div class="product-description">
-																{{ product.description_markdown | truncate: 45 | markdownify }}
-															</div>
-															<p>£{{ product.price }}</p>
-														</div>
-													</li>
-												{% endfor %}
-												<li></li>
-												<li></li>
-												<li></li>
-											</ul>
-										</div>
+								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="Something" alt="" /></a>									
 							</article>
-							<!-- test
 							<article class="from-right">
 								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
 							</article>
@@ -122,35 +92,8 @@
 							</article>
 							<article class="from-right">
 								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
-							</article> -->
-						</div> 
-
-						<!-- products
-						<div class="gallery" id="products">
-							<section>
-								<div class="container">
-									<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_products" class="btn"><strong>&#9998;</strong> Manage products</a></p>
-									<ul class="product-list">
-										{% for product in site.products %}
-											<li>
-												{% include product-styles.html product=product %}
-												<div class="product-details">
-													<h4><a href="{{ product.url }}">{{ product.name }}</a></h4>
-													<div class="product-description">
-														{{ product.description_markdown | truncate: 45 | markdownify }}
-													</div>
-													<p>£{{ product.price }}</p>
-												</div>
-											</li>
-										{% endfor %}
-										<li></li>
-										<li></li>
-										<li></li>
-									</ul>
-								</div>
-							</section>
+							</article>
 						</div>
-					-->
 
 				</div>
 			</section>
@@ -160,7 +103,7 @@
 				<div class="content">
 					<header>
 						<h2>Say Hello.</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+						<p>Want to join us? Send us a message for an invite to our group!</p>
 					</header>
 					<div class="box">
 						<form method="post" action="#">
@@ -190,7 +133,7 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Manchester Modded Meets</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 					</ul>
 
 			</footer>
