@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Manchester Mod Meets
+title: Modified Meets Manchester
 url: "https://modmeets.netlify.com/"
 baseurl:
 google_analytics_key:
@@ -10,14 +10,14 @@ snipcart_key: "OTFiZDVmNmYtYzc1OS00NGQyLTgzYTAtNjhjZGFhNTZlMWMyNjM2NTc4NjAyODA0N
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Mod Meets
+description: Modified Meets
 author:
   name: Adam
   email: adam@modmeets.co.uk
   twitter: modmeets # twitter username without the @ symbol
   phone: ""
 social:
-  name: Manchester Modded Meets
+  name: Modified Meets Manchester
   links:
     - https://github.com/adamprice56/modmeets
 

@@ -7,6 +7,36 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Custom stuff */
+
+/* Custom sized images on preview page */
+.center-cropped {
+	width: 440px;
+	height: 276px;
+	background-position: center center;
+	background-repeat: no-repeat;
+  }
+
+  .object-fit_fill {
+	object-fit: fill
+  }
+  
+  .object-fit_contain {
+	object-fit: contain
+  }
+  
+  .object-fit_cover {
+	object-fit: cover
+  }
+  
+  .object-fit_none {
+	object-fit: none
+  }
+  
+  .object-fit_scale-down {
+	object-fit: scale-down
+  }
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
